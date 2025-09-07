@@ -150,7 +150,10 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>&copy; 2025 Catarina Sapateiro</p>
+          <p>
+            &copy;Copyright (c) 2019 Issaaf Kattan. Modified in 2025 by Catarina
+            Sapateiro
+          </p>
         </div>
       </div>
     </div>
