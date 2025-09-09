@@ -18,7 +18,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            Atelier de Arquitectura Paisagista
+            Rope <span className="navbar-brand-complement">atelier</span>
           </a>{" "}
         </div>
 
@@ -27,36 +27,18 @@ export const Navigation = (props) => {
           id="bs-example-navbar-collapse-1"
         >
           <ul className="nav navbar-nav navbar-right">
-            {/* <li>
-              <a href="#features" className="page-scroll">
-                Features
-              </a>
-            </li> */}
             <li>
               <a href="#about" className="page-scroll">
                 Sobre
               </a>
             </li>
-            <li>
-              <a href="#services" className="page-scroll">
-                Servicos
-              </a>
-            </li>
+
             <li>
               <a href="#portfolio" className="page-scroll">
                 Projectos
               </a>
             </li>
-            <li>
-              <a href="#testimonials" className="page-scroll">
-                Testemunhos
-              </a>
-            </li>
-            <li>
-              <a href="#team" className="page-scroll">
-                Equipa
-              </a>
-            </li>
+
             <li>
               <a href="#contact" className="page-scroll">
                 Contactos
