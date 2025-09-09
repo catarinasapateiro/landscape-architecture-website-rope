@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 
-export const Image = ({ title, largeImage, smallImage }) => {
+export const Image = ({ title, smallImage, onClick }) => {
   return (
     <div className="portfolio-item">
       <div className="hover-bg">
@@ -9,7 +9,12 @@ export const Image = ({ title, largeImage, smallImage }) => {
           <div className="hover-text">
             <h4>{title}</h4>
           </div>
-          <img src={smallImage} className="img-responsive" alt={title} />{" "}
+          <img
+            src={smallImage}
+            className="img-responsive"
+            alt={title}
+            onClick={onClick}
+          />{" "}
         </a>{" "}
       </div>
     </div>

@@ -1,5 +1,5 @@
 import { Image } from "./image";
-import React from "react";
+import React, { useState } from "react";
 
 export const Gallery = (props) => {
   return (
@@ -13,7 +13,7 @@ export const Gallery = (props) => {
           </p>
         </div>
         <div className="row">
-          <div className="portfolio-items g-1">
+          <div className="portfolio-items">
             {props.data
               ? props.data.map((d, i) => (
                   <div
@@ -21,8 +21,8 @@ export const Gallery = (props) => {
                     className="col-sm-6 col-md-4 col-lg-4"
                   >
                     <Image
+                      onClick={() => props.setPopUp(d)}
                       title={d.title}
-                      largeImage={d.largeImage}
                       smallImage={d.smallImage}
                     />
                   </div>

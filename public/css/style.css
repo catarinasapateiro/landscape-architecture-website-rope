@@ -3,6 +3,8 @@
   --darker-green: #497e54;
   --lighter-green: #69b95e;
   --intermediate-green: rgba(41, 116, 53, 0.6);
+  --grey: rgb(219, 217, 217, 0.8);
+  --lightgrey: rgba(238, 235, 235, 0.8);
 }
 
 body,
@@ -18,13 +20,13 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Quickstand", "Raleway", sans-serif;
 }
 h2 {
   text-transform: uppercase;
   margin: 0 0 20px;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 30px;
   color: #333;
 }
 h3 {
@@ -89,7 +91,7 @@ hr {
 }
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   color: #333;
   text-transform: uppercase;
@@ -226,6 +228,7 @@ a:focus,
 .intro {
   display: table;
   width: 100%;
+  min-height: 95%;
   padding: 0;
   background: url(../img/intro-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
@@ -263,27 +266,7 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
-/* Features Section */
-#features {
-  background: #f6f6f6;
-}
-#features i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
-  border-radius: 50%;
-  background: linear-gradient(
-    to right,
-    var(--primary-green) 0%,
-    var(--lighter-green) 100%
-  );
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-  opacity: 0.9;
-}
+
 /* About Section */
 #about {
   padding: 100px 0;
@@ -337,25 +320,29 @@ header .intro-text {
 }
 /* Services Section */
 
-.title-h2-services {
-  font-size: xx-large;
+.title-h3-services {
+  font-size: large;
   font-weight: bold;
+}
+
+.text-services {
+  text-align: justify;
+  letter-spacing: 1px;
 }
 
 #services {
   padding: 100px 0;
-  background: linear-gradient(
-    to right,
-    var(--lighter-green) 0%,
-    var(--primary-green) 100%
-  );
+  background: linear-gradient(to right, var(--lightgrey) 0%, var(--grey) 100%);
   color: #fff;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #333;
+}
+#services h3 {
+  color: #104608;
 }
 #services .section-title h2::after {
   position: absolute;
@@ -384,10 +371,10 @@ header .intro-text {
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #333;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #444;
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -395,7 +382,7 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
-  }
+}
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;

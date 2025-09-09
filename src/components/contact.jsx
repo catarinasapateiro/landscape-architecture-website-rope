@@ -51,7 +51,7 @@ export const Contact = (props) => {
                 <h2>Contactos</h2>
                 <p>Contacte-nos por email.</p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" noValidate onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -150,10 +150,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>
-            &copy;Copyright (c) 2019 Issaaf Kattan. Modified in 2025 by Catarina
-            Sapateiro
-          </p>
+          <p>&copy; Adapted in 2025 by Catarina Sapateiro</p>
         </div>
       </div>
     </div>

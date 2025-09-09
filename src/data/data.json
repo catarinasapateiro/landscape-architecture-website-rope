@@ -21,12 +21,14 @@
   "Gallery": [
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
+      "description": "This is a cool project about ...",
+      "images": ["img/portfolio/01-large.jpg"],
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
       "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
+      "description": "This is a cool project about ...",
+      "images": ["img/portfolio/02-large.jpg"],
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
@@ -68,32 +70,32 @@
   "Services": [
     {
       "icon": "fa fa-pencil",
-      "name": "Desenho conceptual de projecto",
+      "name": "1. Desenho conceptual de projecto",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-book",
-      "name": "Licenciamento",
+      "name": "2. Licenciamento",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-tree",
-      "name": "Planos de plantacao e manutencao",
+      "name": "3. Desenho Tecnico",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-wrench",
-      "name": "Acompanhamento de obra",
+      "name": "4. Acompanhamento de obra",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-bug",
-      "name": "Ecologia",
+      "name": "5. Plantacao e manutencao",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     },
     {
       "icon": "fa fa-leaf",
-      "name": "Desenho tecnico e caderno de encargos",
+      "name": "6. Recuperacao de patrimonio natural e cultural",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
@@ -142,33 +144,11 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Braga, Portugal",
+    "phone": "+91959555",
+    "email": "marcelosantos_33@hotmail.com",
     "instagram": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
-  },
-  "Features": [
-    {
-      "icon": "fa fa-pencil",
-      "title": "Design",
-      "text": "Desenho de jardins, espacos urbanos etc"
-    },
-    {
-      "icon": "fa fa-book",
-      "title": "Licenciamento",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-tree",
-      "title": "Desenho tecnico",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    },
-    {
-      "icon": "fa fa-truck",
-      "title": "Acompanhamento de obra",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
-    }
-  ]
+  }
 }
