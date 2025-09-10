@@ -20,8 +20,9 @@ const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
   const [isPopUpOpen, setPopUp] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
+  const [selectLanguage, setSelectLanguage] = useState("PT");
 
-  console.log(isPopUpOpen);
+  console.log(selectedProject, "project");
 
   function handleOpenPopUp(project) {
     setSelectedProject(project);
@@ -39,9 +40,12 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
+      <Navigation
+        selectLanguage={selectLanguage}
+        setSelectLanguage={setSelectLanguage}
+      />
       <Header data={landingPageData.Header} />
-      {/* <Features data={landingPageData.Features} /> */}
+
       <About data={landingPageData.About} />
 
       <Gallery data={landingPageData.Gallery} setPopUp={handleOpenPopUp} />

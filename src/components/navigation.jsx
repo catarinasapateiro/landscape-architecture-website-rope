@@ -1,6 +1,10 @@
 import React from "react";
 
 export const Navigation = (props) => {
+  const toggleLanguage = () => {
+    props.setSelectLanguage((prev) => (prev === "EN" ? "PT" : "EN"));
+  };
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -43,6 +47,12 @@ export const Navigation = (props) => {
               <a href="#contact" className="page-scroll">
                 Contactos
               </a>
+            </li>
+
+            <li>
+              <button className="button-language" onClick={toggleLanguage}>
+                {props.selectLanguage === "EN" ? "PT" : "EN"}
+              </button>
             </li>
           </ul>
         </div>

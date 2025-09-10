@@ -21,9 +21,13 @@ export const Gallery = (props) => {
                     className="col-sm-6 col-md-4 col-lg-4"
                   >
                     <Image
-                      onClick={() => props.setPopUp(d)}
+                      onClick={() => {
+                        props.setPopUp(d);
+                        console.log("clicked");
+                      }}
                       title={d.title}
                       smallImage={d.smallImage}
+                      style={{ cursor: "pointer" }}
                     />
                   </div>
                 ))
