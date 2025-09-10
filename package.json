@@ -2,6 +2,7 @@
   "name": "landscape-architecture-website",
   "private": true,
   "homepage": "https://catarinasapateiro.github.io/landscape-architecture-website",
+  "version": "0.1.0",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -35,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
