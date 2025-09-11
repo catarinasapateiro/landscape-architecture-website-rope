@@ -1,9 +1,29 @@
 import React from "react";
 import { useContext } from "react";
+import { useLanguage } from "../contexts/LanguageContext.js";
 
 export const Navigation = (props) => {
+  const { language, setLanguage } = useLanguage();
+
+  // const toggleLanguage = () => {
+  //   setLanguage((prev) => (prev === "en" ? "pt" : "en"));
+  // };
+
   const toggleLanguage = () => {
-    props.setLanguage((prev) => (prev === "en" ? "pt" : "en"));
+    setLanguage((prev) => {
+      const newLang = prev === "en" ? "pt" : "en";
+
+      const root = document.documentElement;
+
+      if (newLang === "pt") {
+        root.style.setProperty("--primary-red", "#91937c");
+        root.style.setProperty("--lighter-red", "#c5c5be");
+      } else {
+        root.style.setProperty("--primary-red", "#ef4752");
+        root.style.setProperty("--lighter-red", "rgba(238, 105, 114)");
+      }
+      return newLang;
+    });
   };
 
   return (
@@ -34,25 +54,25 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#about" className="page-scroll">
-                Sobre
+                {language === "en" ? "About" : "Sobre"}
               </a>
             </li>
 
             <li>
               <a href="#portfolio" className="page-scroll">
-                Projectos
+                {language === "en" ? "Projects" : "Projectos"}
               </a>
             </li>
 
             <li>
               <a href="#contact" className="page-scroll">
-                Contactos
+                {language === "en" ? "Contact" : "Contactos"}
               </a>
             </li>
 
             <li>
               <button className="button-language" onClick={toggleLanguage}>
-                {props.language === "en" ? "pt" : "en"}
+                {language === "en" ? "pt" : "en"}
               </button>
             </li>
           </ul>

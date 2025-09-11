@@ -3,12 +3,11 @@ import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { PopUp } from "./components/popUp";
 import { About } from "./components/about";
-
 import { Gallery } from "./components/gallery";
-
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import { useLanguage } from "./contexts/LanguageContext";
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -17,11 +16,10 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
+  const { language } = useLanguage();
   const [landingPageData, setLandingPageData] = useState({});
   const [isPopUpOpen, setPopUp] = useState(false);
   const [selectedProject, setSelectedProject] = useState(null);
-
-  console.log(selectedProject, "project");
 
   function handleOpenPopUp(project) {
     setSelectedProject(project);
@@ -34,8 +32,10 @@ const App = () => {
   }
 
   useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
+    if (JsonData[language]) {
+      setLandingPageData(JsonData[language]);
+    }
+  }, [language]);
 
   return (
     <div>

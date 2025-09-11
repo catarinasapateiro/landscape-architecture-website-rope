@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
+import { useLanguage } from "../contexts/LanguageContext.js";
 
 const initialState = {
   name: "",
@@ -9,6 +10,7 @@ const initialState = {
 };
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
+  const { language, setLanguage } = useLanguage();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -19,10 +21,6 @@ export const Contact = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-
-    {
-      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
-    }
 
     emailjs
       .sendForm(
@@ -48,8 +46,12 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Contactos</h2>
-                <p>Contacte-nos por email.</p>
+                <h2>{language === "en" ? "Contact" : "Contactos"}</h2>
+                <p>
+                  {language === "en"
+                    ? "Send us an email"
+                    : "Contacte-nos por email"}
+                </p>
               </div>
               <form name="sentMessage" noValidate onSubmit={handleSubmit}>
                 <div className="row">
@@ -96,17 +98,18 @@ export const Contact = (props) => {
                 </div>
                 <div id="success"></div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Enviar mensagem
+                  {language === "en" ? "Send a message" : "Enviar mensagem"}
                 </button>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contactos</h3>
+              <h3>{language === "en" ? "Contact" : "Contactos"}</h3>
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-marker"></i>{" "}
+                  {language === "en" ? "Adress" : "Morada"}
                 </span>
                 {props.data ? props.data.address : "loading"}
               </p>
@@ -114,7 +117,8 @@ export const Contact = (props) => {
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i>{" "}
+                  {language === "en" ? "Phone" : "Telefone"}
                 </span>{" "}
                 {props.data ? props.data.phone : "loading"}
               </p>
@@ -137,7 +141,7 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>&copy; Adapted in 2025 by Catarina Sapateiro</p>
+          <p>&copy; Adapted by Catarina Sapateiro</p>
         </div>
       </div>
     </div>
