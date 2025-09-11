@@ -2,6 +2,7 @@
   --primary-red: #91937c;
   --darker-red: #6a6b61;
   --lighter-red: #c5c5be;
+  --font: "Ysabeau Infant";
 
   /* --primary-red: #ef4752;
   --darker-red: rgb(168, 39, 48);
@@ -14,7 +15,7 @@
 
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--font), sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -29,7 +30,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Quickstand", "Raleway", sans-serif;
+  font-family: var(--font), "Raleway", sans-serif;
 }
 h2 {
   text-transform: uppercase;
@@ -98,7 +99,7 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font), sans-serif;
   font-size: 30px;
   font-weight: 700;
   color: var(--primary-red);
@@ -122,7 +123,7 @@ hr {
 }
 
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: var(--font), sans-serif;
   text-transform: uppercase;
   color: #555;
   font-size: 15px;
@@ -252,7 +253,7 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--font), sans-serif;
   color: #fff;
   font-size: 62px;
   font-weight: 700;
@@ -312,7 +313,7 @@ header .intro-text {
 }
 #about .about-text li:before {
   content: "\f00c";
-  font-family: "FontAwesome";
+  font-family: var(--font);
   color: var(--primary-red);
   font-size: 11px;
   font-weight: 300;
@@ -447,7 +448,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--font), sans-serif;
   float: left;
 }
 #contact .form-control {
@@ -517,7 +518,7 @@ label {
   transition: all 0.3s;
 }
 #contact .social i.fa:hover {
-  color: var(--darker-red);
+  color: var(--primary-red);
   background: #fff;
 }
 
