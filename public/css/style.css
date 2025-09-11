@@ -645,7 +645,6 @@ label {
   color: none;
 }
 
-
 .custom-arrow {
   color: #333;
   position: absolute;
@@ -676,6 +675,35 @@ label {
 
 .custom-arrow-right {
   right: 15px;
+}
+
+.carousel .control-dots {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Each dot */
+.carousel .control-dots .dot {
+  width: 10px;
+  height: 1px;
+  border-radius: 50%;
+  background: var(--light-grey);
+  box-shadow: none !important;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Active dot */
+.carousel .control-dots .dot.selected {
+  background: var(--primary-red); /* Use active color */
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 /* Footer Section*/

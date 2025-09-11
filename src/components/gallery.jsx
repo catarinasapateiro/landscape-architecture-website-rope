@@ -1,9 +1,8 @@
 import { Image } from "./image";
-import React, { useState } from "react";
 import { useLanguage } from "../contexts/LanguageContext.js";
 
 export const Gallery = (props) => {
-  const { language, setLanguage } = useLanguage();
+  const { language } = useLanguage();
   return (
     <div id="portfolio" className="text-center">
       <div className="container">
