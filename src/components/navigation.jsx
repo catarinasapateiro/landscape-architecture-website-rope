@@ -1,8 +1,9 @@
 import React from "react";
+import { useContext } from "react";
 
 export const Navigation = (props) => {
   const toggleLanguage = () => {
-    props.setSelectLanguage((prev) => (prev === "EN" ? "PT" : "EN"));
+    props.setLanguage((prev) => (prev === "en" ? "pt" : "en"));
   };
 
   return (
@@ -51,7 +52,7 @@ export const Navigation = (props) => {
 
             <li>
               <button className="button-language" onClick={toggleLanguage}>
-                {props.selectLanguage === "EN" ? "PT" : "EN"}
+                {props.language === "en" ? "pt" : "en"}
               </button>
             </li>
           </ul>

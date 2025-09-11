@@ -39,7 +39,7 @@ const App = () => {
 
   return (
     <div>
-      <Navigation setSelectLanguage={setSelectLanguage} />
+      <Navigation />
       <Header data={landingPageData.Header} />
 
       <About data={landingPageData.About} />
