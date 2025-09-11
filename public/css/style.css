@@ -235,6 +235,7 @@ a:focus,
   outline-offset: none;
 }
 /* Header Section */
+
 .intro {
   display: table;
   width: 100%;
@@ -250,6 +251,7 @@ a:focus,
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
+
 .intro h1 {
   font-family: var(--font), sans-serif;
   color: #fff;
@@ -568,7 +570,6 @@ label {
   color: rgb(51, 51, 51, 0.6);
   cursor: pointer;
   z-index: 10;
-
   transition: all 0.2s ease;
 }
 
@@ -644,7 +645,6 @@ label {
   color: none;
 }
 
-/* Custom arrow styles */
 
 .custom-arrow {
   color: #333;
@@ -661,13 +661,12 @@ label {
   justify-content: center;
   cursor: pointer;
   z-index: 2;
-
   transition: all 0.2s ease;
 }
 
 .custom-arrow:hover {
-  background: var(--primary-red);
-  color: white;
+  /* background: var(--primary-red); */
+  color: var(--primary-red);
   transform: translateY(-50%) scale(1.05);
 }
 
@@ -744,7 +743,10 @@ label {
   .button-language {
     margin-left: 20px;
   }
+}
 
-  .intro {
+@media (max-width: 320px) {
+  .intro h1 {
+    font-size: 38px;
   }
 }
