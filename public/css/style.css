@@ -538,18 +538,17 @@ label {
 
 .popup-content {
   background: white;
-  border-radius: none;
   width: 100%;
   max-width: 1250px;
-  height: 650px;
   max-height: 100vh;
+  overflow-y: auto; /* allows scrolling */
+  overflow-x: hidden;
   position: relative;
   display: grid;
   grid-template-columns: 1.4fr 1fr;
   gap: 30px;
   padding: 50px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-  overflow: hidden;
 }
 
 .popup-close {
@@ -625,7 +624,8 @@ label {
   border-radius: none;
   overflow: hidden;
   width: 100%;
-  height: 100%;
+  height: auto; /* change from 100% to auto */
+  max-height: 400px; /* or appropriate max height */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -634,9 +634,9 @@ label {
 
 .carousel-slide img {
   width: 100%;
-  height: 100%;
+  height: auto; /* change to auto */
   object-fit: cover;
-  border-radius: none;
+  display: block;
 }
 
 .carousel .carousel-status {
@@ -726,15 +726,15 @@ label {
     grid-template-columns: 1fr;
     padding: 30px;
     gap: 20px;
-    max-height: 95vh;
+    max-height: 90vh; /* ensure it doesn't overflow */
+    overflow-y: auto;
   }
-
   .popup-overlay {
     padding: 1rem;
   }
 
   .carousel-container {
-    max-height: 300px;
+    max-height: 250px;
   }
 }
 
