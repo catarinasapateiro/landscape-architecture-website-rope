@@ -624,8 +624,9 @@ label {
   border-radius: none;
   overflow: hidden;
   width: 100%;
-  height: auto; /* change from 100% to auto */
-  max-height: 400px; /* or appropriate max height */
+  height: 100%;
+  min-height: 500px;
+  max-height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -675,35 +676,6 @@ label {
   right: 15px;
 }
 
-.carousel .control-dots {
-  position: absolute;
-  bottom: 20px;
-  width: 100%;
-  display: flex !important;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
-
-/* Each dot */
-.carousel .control-dots .dot {
-  width: 10px;
-  height: 1px;
-  border-radius: 50%;
-  background: var(--light-grey);
-  box-shadow: none !important;
-  opacity: 0.5;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-/* Active dot */
-.carousel .control-dots .dot.selected {
-  background: var(--primary-red); /* Use active color */
-  opacity: 1;
-  transform: scale(1.1);
-}
-
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
@@ -735,6 +707,15 @@ label {
 
   .carousel-container {
     max-height: 250px;
+    min-height: 250px;
+    height: auto;
+  }
+
+  #about {
+    padding: 25px 0; 
+  }
+  #portfolio {
+    padding: 50px 0; 
   }
 }
 
@@ -753,8 +734,10 @@ label {
   }
 
   .popup-close {
-    top: 5px;
-    right: 5px;
+    top: 4px;
+    right: 4px;
+    width: 30px;
+    height: 30px;
   }
 }
 
