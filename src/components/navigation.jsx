@@ -5,26 +5,26 @@ import { useLanguage } from "../contexts/LanguageContext.js";
 export const Navigation = (props) => {
   const { language, setLanguage } = useLanguage();
 
-  // const toggleLanguage = () => {
-  //   setLanguage((prev) => (prev === "en" ? "pt" : "en"));
-  // };
-
   const toggleLanguage = () => {
-    setLanguage((prev) => {
-      const newLang = prev === "en" ? "pt" : "en";
-
-      const root = document.documentElement;
-
-      if (newLang === "pt") {
-        root.style.setProperty("--primary-red", "#91937c");
-        root.style.setProperty("--lighter-red", "#c5c5be");
-      } else {
-        root.style.setProperty("--primary-red", "#ef4752");
-        root.style.setProperty("--lighter-red", "rgba(238, 105, 114)");
-      }
-      return newLang;
-    });
+    setLanguage((prev) => (prev === "en" ? "pt" : "en"));
   };
+
+  // const toggleLanguage = () => {
+  //   setLanguage((prev) => {
+  //     const newLang = prev === "en" ? "pt" : "en";
+
+  //     const root = document.documentElement;
+
+  //     if (newLang === "pt") {
+  //       root.style.setProperty("--primary-red", "#91937c");
+  //       root.style.setProperty("--lighter-red", "#c5c5be");
+  //     } else {
+  //       root.style.setProperty("--primary-red", "#ef4752");
+  //       root.style.setProperty("--lighter-red", "rgba(238, 105, 114)");
+  //     }
+  //     return newLang;
+  //   });
+  // };
 
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
