@@ -5,71 +5,51 @@
       "paragraph": "\"A natureza é beleza\""
     },
     "About": {
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Why": [
-        "Lorem ipsum dolor",
-        "Tempor incididunt",
-        "Lorem ipsum dolor",
-        "Incididunt ut labore"
-      ],
-      "Why2": [
-        "Aliquip ex ea commodo",
-        "Lorem ipsum dolor",
-        "Exercitation ullamco",
-        "Lorem ipsum dolor"
-      ]
+      "titleone": "MANIFESTO",
+      "paragraph": "We strive to connect nature, people, and places. As landscape architects, we are guided by a deep respect for natural and cultural heritage and the ever-evolving needs of society. We believe in visionary and sensitive design. We create places that are not only functional and sustainable but also rich in character and meaning.Each project has its own unique identity, where natural and built elements blend into a balanced and beautiful composition. Our mission is to create purposeful places where nature and people come together, and design enhances the experience of the space.",
+      "titletwo": "SARA ROCHA",
+      "paragraphtwo": "Sara, a landscape architect from the University of Porto, is naturally curious and enthusiastic.From an early stage, she collaborated with professionals from whom she gained knowledge and inspiration, but it was in the United Kingdom - where she worked for almost a decade alongside leading figures in landscape architecture and garden design at BHSLA and WSP – that her career truly flourished over the past 10 years. Her portfolio includes significant projects for the British Ministry of Defence, the City of London, and Cambridge and Oxford universities, as well as high-end private gardens featured in the press.",
+      "titlethree": "MARCELO SANTOS",
+      "paragraphthree": "Marcelo is a landscape architect with a strong interest in furniture and graphic design.With extensive experience in the UK and Portugal, he has worked with companies of international portfolio, such as BDP. He was involved in the regeneration of Oxford Street and King’s Road and has vast experience in the residential sector, having been part of one of the largest residential projects of the last decade in London. His portfolio also includes commercial, corporate, hospitality, and healthcare projects."
     },
     "Gallery": [
       {
-        "title": "Project Title",
+        "title": "Las Casuarinas,competition",
         "date": "March 2025",
         "location": "London",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "images": ["img/portfolio/01-large.jpg", "img/portfolio/01-large.jpg"],
+        "images": [
+          "img/portfolio/011-large.jpg",
+          "img/portfolio/012-large.jpg",
+          "img/portfolio/013-large.jpg"
+        ],
         "smallImage": "img/portfolio/01-small.jpg"
       },
       {
-        "title": "Project Title",
+        "title": "Private garden, London",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "images": ["img/portfolio/02-large.jpg", "img/portfolio/02-large.jpg"],
-        "smallImage": "img/portfolio/02-small.jpg"
+        "images": [
+          "img/portfolio/02-large.png",
+          "img/portfolio/021-large.png",
+          "img/portfolio/022-large.png",
+          "img/portfolio/023-large.png",
+          "img/portfolio/024-large.png",
+          "img/portfolio/025-large.png",
+          "img/portfolio/026-large.png"
+        ],
+        "smallImage": "img/portfolio/02-small.png"
       },
       {
-        "title": "Project Title",
+        "title": "Cortiço",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "images": ["img/portfolio/03-large.jpg", "img/portfolio/02-large.jpg"],
+        "images": [
+          "img/portfolio/031-large.jpg",
+          "img/portfolio/032-large.jpg",
+          "img/portfolio/033-large.jpg",
+          "img/portfolio/034-large.jpg",
+          "img/portfolio/03-large.jpg"
+        ],
         "smallImage": "img/portfolio/03-small.jpg"
-      },
-      {
-        "title": "Project Title",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "images": ["img/portfolio/03-large.jpg"],
-        "smallImage": "img/portfolio/04-small.jpg"
-      },
-      {
-        "title": "Project Title",
-        "largeImage": "img/portfolio/05-large.jpg",
-        "smallImage": "img/portfolio/05-small.jpg"
-      },
-      {
-        "title": "Project Title",
-        "largeImage": "img/portfolio/06-large.jpg",
-        "smallImage": "img/portfolio/06-small.jpg"
-      },
-      {
-        "title": "Project Title",
-        "largeImage": "img/portfolio/07-large.jpg",
-        "smallImage": "img/portfolio/07-small.jpg"
-      },
-      {
-        "title": "Project Title",
-        "largeImage": "img/portfolio/08-large.jpg",
-        "smallImage": "img/portfolio/08-small.jpg"
-      },
-      {
-        "title": "Project Title",
-        "largeImage": "img/portfolio/09-large.jpg",
-        "smallImage": "img/portfolio/09-small.jpg"
       }
     ],
 
@@ -88,37 +68,29 @@
       "paragraph": "\"Nature is beauty\""
     },
     "About": {
-      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "Why": [
-        "Lorem ipsum dolor",
-        "Tempor incididunt",
-        "Lorem ipsum dolor",
-        "Incididunt ut labore"
-      ],
-      "Why2": [
-        "Aliquip ex ea commodo",
-        "Lorem ipsum dolor",
-        "Exercitation ullamco",
-        "Lorem ipsum dolor"
-      ]
+      "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     "Gallery": [
       {
-        "title": "Project Title",
+        "title": "Las Casuarinas,competition",
         "date": "March 2025",
         "location": "London",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "images": ["img/portfolio/01-large.jpg", "img/portfolio/01-large.jpg"],
+        "images": [
+          "img/portfolio/011-large.jpg",
+          "img/portfolio/012-large.jpg",
+          "img/portfolio/013-large.jpg"
+        ],
         "smallImage": "img/portfolio/01-small.jpg"
       },
       {
-        "title": "Project Title",
+        "title": "Private garden in Key Gardens, London",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "images": ["img/portfolio/02-large.jpg", "img/portfolio/02-large.jpg"],
         "smallImage": "img/portfolio/02-small.jpg"
       },
       {
-        "title": "Project Title",
+        "title": "Cortiço",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "images": ["img/portfolio/03-large.jpg", "img/portfolio/02-large.jpg"],
         "smallImage": "img/portfolio/03-small.jpg"

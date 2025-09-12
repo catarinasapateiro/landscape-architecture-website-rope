@@ -33,6 +33,7 @@ const App = () => {
 
   useEffect(() => {
     if (JsonData[language]) {
+      console.log("Loaded JSON:", JsonData[language]);
       setLandingPageData(JsonData[language]);
     }
   }, [language]);

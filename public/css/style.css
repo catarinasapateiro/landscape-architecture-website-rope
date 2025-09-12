@@ -2,7 +2,7 @@
   --primary-red: #91937c;
   --darker-red: #6a6b61;
   --lighter-red: #c5c5be;
-  --font: "Ysabeau Infant";
+  --font: "Sulphur Point";
 
   --grey: #91937c;
   --light-grey: #c5c5be;
@@ -255,7 +255,7 @@ a:focus,
 .intro h1 {
   font-family: var(--font), sans-serif;
   color: #fff;
-  font-size: 62px;
+  font-size: 70px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -283,13 +283,13 @@ header .intro-text {
 #about {
   padding: 100px 0;
 }
-#about h3 {
-  font-size: 22px;
-  margin: 0 0 20px;
+#about h4 {
+  font-size: 18px;
+  margin: 10px 0 5px 0;
 }
 #about h2 {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   padding-bottom: 15px;
 }
 #about h2::after {
@@ -305,20 +305,16 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
-#about .about-text li {
-  margin-bottom: 6px;
-  margin-left: 6px;
-  list-style: none;
-  padding: 0;
+
+.about-text-small-container {
+  margin-bottom: 2rem;
 }
-#about .about-text li:before {
-  content: "\f00c";
-  font-family: var(--font);
-  color: var(--primary-red);
-  font-size: 11px;
-  font-weight: 300;
-  padding-right: 8px;
+
+.about-text-manifesto-small-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
+
 #about img {
   width: 520px;
   margin-top: 10px;
@@ -326,11 +322,13 @@ header .intro-text {
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
-#about p {
-  line-height: 24px;
-  margin: 30px 0;
-}
 
+#about p {
+  text-align: justify;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+}
 /* Portfolio Section */
 
 .portfolio-item {
