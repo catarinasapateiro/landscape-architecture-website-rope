@@ -695,7 +695,7 @@ label {
     grid-template-columns: 1fr;
     padding: 30px;
     gap: 20px;
-    max-height: 90vh; /* ensure it doesn't overflow */
+    max-height: 80vh; /* ensure it doesn't overflow */
     overflow-y: auto;
   }
   .popup-overlay {
@@ -704,7 +704,7 @@ label {
 
   .carousel-container {
     max-height: 250px;
-    min-height: 250px;
+    min-height: 200px;
     height: auto;
   }
 
