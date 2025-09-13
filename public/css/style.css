@@ -248,9 +248,6 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
-.intro .overlay {
-  background: rgba(0, 0, 0, 0.2);
-}
 
 .intro h1 {
   font-family: var(--font), sans-serif;
