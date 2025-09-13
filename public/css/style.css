@@ -1,7 +1,7 @@
 :root {
-  --primary-red: #91937c;
+  --primary-red: #ef4752;
   --darker-red: #6a6b61;
-  --lighter-red: #c5c5be;
+  --lighter-red: rgba(238, 105, 114);
   --font: "Sulphur Point";
 
   --grey: #91937c;
@@ -281,7 +281,7 @@ header .intro-text {
 
 /* About Section */
 #about {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 #about h4 {
   font-size: 18px;
