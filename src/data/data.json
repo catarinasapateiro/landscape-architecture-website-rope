@@ -14,41 +14,63 @@
     },
     "Gallery": [
       {
-        "title": "Las Casuarinas,competition",
-        "date": "March 2025",
-        "location": "London",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "title": "Las Casuarinas, Peru",
+        "date": "2020",
+        "location": "Peru",
+        "description": "Um espaço de socalcos, flexível e fluido, que modela uma encosta íngreme e a transforma num lugar de encontro, unindo as duas comunidades.",
         "images": [
-          "img/portfolio/011-large.jpg",
-          "img/portfolio/012-large.jpg",
-          "img/portfolio/013-large.jpg"
+          "img/casuarinas/P2_V1.jpg",
+          "img/casuarinas/P2_V2.jpg",
+          "img/casuarinas/P2_V3.jpg",
+          "img/casuarinas/P2_V4.jpg",
+          "img/casuarinas/P2_V5.jpg",
+          "img/casuarinas/P2_V6.jpg",
+          "img/casuarinas/P2_V7.jpg",
+          "img/casuarinas/P2_V8.jpg"
         ],
-        "smallImage": "img/portfolio/01-small.jpg"
+        "smallImage": "img/casuarinas/P2_V1.jpg"
       },
       {
-        "title": "Private garden, London",
+        "title": "Cinfaes",
+        "date": "2025",
+        "location": "Cinfaes",
+        "description": "Um espaço de socalcos, flexível e fluido, que modela uma encosta íngreme e a transforma num lugar de encontro, unindo as duas comunidades.",
+        "images": ["img/casuarinas/P5_V1.jpg"],
+        "smallImage": "img/cinfaes/P5_V1.jpg"
+      },
+      {
+        "title": "Jardim privado, Kew Gardens",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "images": [
-          "img/portfolio/02-large.png",
-          "img/portfolio/021-large.png",
-          "img/portfolio/022-large.png",
-          "img/portfolio/023-large.png",
-          "img/portfolio/024-large.png",
-          "img/portfolio/025-large.png",
-          "img/portfolio/026-large.png"
+          "img/kew/P3_V1.jpg",
+          "img/kew/P3_V2.jpg",
+          "img/kew/P3_V3.jpg",
+          "img/kew/P3_V4.jpg"
         ],
-        "smallImage": "img/portfolio/02-small.png"
+        "smallImage": "img/kew/P3_V1.jpg"
       },
       {
         "title": "Cortiço",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "images": [
-          "img/portfolio/031-large.jpg",
-          "img/portfolio/032-large.jpg",
-          "img/portfolio/034-large.jpg",
-          "img/portfolio/03-large.jpg"
+          "img/cortico/P4_V1.jpg",
+          "img/cortico/P4_V2.jpg",
+          "img/cortico/P4_V3.jpg",
+          "img/cortico/P4_V4.jpg",
+          "img/cortico/P4_V5.jpg"
         ],
-        "smallImage": "img/portfolio/03-small.jpg"
+        "smallImage": "img/cortico/P4_V4.jpg"
+      },
+      {
+        "title": "Ponte",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "images": [
+          "img/ponte/P1_V1.jpg",
+          "img/ponte/P1_V2.jpg",
+          "img/ponte/P1_V3.jpg",
+          "img/ponte/P1_V5.jpg"
+        ],
+        "smallImage": "img/ponte/P1_V1.jpg"
       }
     ],
 
@@ -81,36 +103,58 @@
         "location": "London",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "images": [
-          "img/portfolio/011-large.jpg",
-          "img/portfolio/012-large.jpg",
-          "img/portfolio/013-large.jpg"
+          "img/casuarinas/P2_V1.jpg",
+          "img/casuarinas/P2_V2.jpg",
+          "img/casuarinas/P2_V3.jpg",
+          "img/casuarinas/P2_V4.jpg",
+          "img/casuarinas/P2_V5.jpg",
+          "img/casuarinas/P2_V6.jpg",
+          "img/casuarinas/P2_V7.jpg",
+          "img/casuarinas/P2_V8.jpg"
         ],
-        "smallImage": "img/portfolio/01-small.jpg"
+        "smallImage": "img/casuarinas/P2_V1.jpg"
+      },
+      {
+        "title": "Cinfaes",
+        "date": "2025",
+        "location": "Cinfaes",
+        "description": "Um espaço de socalcos, flexível e fluido, que modela uma encosta íngreme e a transforma num lugar de encontro, unindo as duas comunidades.",
+        "images": ["img/casuarinas/P5_V1.jpg"],
+        "smallImage": "img/cinfaes/P5_V1.jpg"
       },
       {
         "title": "Private garden, London",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "images": [
-          "img/portfolio/02-large.png",
-          "img/portfolio/021-large.png",
-          "img/portfolio/022-large.png",
-          "img/portfolio/023-large.png",
-          "img/portfolio/024-large.png",
-          "img/portfolio/025-large.png",
-          "img/portfolio/026-large.png"
+          "img/kew/P3_V1.jpg",
+          "img/kew/P3_V2.jpg",
+          "img/kew/P3_V3.jpg",
+          "img/kew/P3_V4.jpg"
         ],
-        "smallImage": "img/portfolio/02-small.png"
+        "smallImage": "img/kew/P3_V1.jpg"
       },
       {
         "title": "Cortiço",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "images": [
-          "img/portfolio/031-large.jpg",
-          "img/portfolio/032-large.jpg",
-          "img/portfolio/034-large.jpg",
-          "img/portfolio/03-large.jpg"
+          "img/cortico/P4_V1.jpg",
+          "img/cortico/P4_V2.jpg",
+          "img/cortico/P4_V3.jpg",
+          "img/cortico/P4_V4.jpg",
+          "img/cortico/P4_V5.jpg"
         ],
-        "smallImage": "img/portfolio/03-small.jpg"
+        "smallImage": "img/cortico/P4_V4.jpg"
+      },
+      {
+        "title": "Ponte",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "images": [
+          "img/ponte/P1_V1.jpg",
+          "img/ponte/P1_V2.jpg",
+          "img/ponte/P1_V3.jpg",
+          "img/ponte/P1_V5.jpg"
+        ],
+        "smallImage": "img/ponte/P1_V1.jpg"
       }
     ],
 

@@ -8,28 +8,27 @@ export const Gallery = (props) => {
       <div className="container">
         <div className="section-title">
           <h2> {language === "en" ? "Projects" : "Projectos"}</h2>
-                 </div>
-        <div className="row">
-          <div className="portfolio-items">
-            {props.data
-              ? props.data.map((d, i) => (
-                  <div
-                    key={`${d.title}-${i}`}
-                    className="col-sm-6 col-md-4 col-lg-4"
-                  >
-                    <Image
-                      onClick={() => {
-                        props.setPopUp(d);
-                        console.log("clicked");
-                      }}
-                      title={d.title}
-                      smallImage={d.smallImage}
-                      style={{ cursor: "pointer" }}
-                    />
-                  </div>
-                ))
-              : "Loading..."}
-          </div>
+        </div>
+        <div className="row portfolio-items">
+          {props.data
+            ? props.data.map((d, i) => (
+                <div
+                  key={`${d.title}-${i}`}
+                  className="col-sm-6 col-md-4 col-lg-4"
+                >
+                  {console.log(d.smallImage, "img")}
+                  <Image
+                    onClick={() => {
+                      props.setPopUp(d);
+                      console.log("clicked");
+                    }}
+                    title={d.title}
+                    smallImage={d.smallImage}
+                    style={{ cursor: "pointer" }}
+                  />
+                </div>
+              ))
+            : "Loading..."}
         </div>
       </div>
     </div>

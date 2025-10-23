@@ -19,37 +19,50 @@ export const PopUp = ({ project, onClose }) => {
         </button>
 
         <div className="carousel-container">
-          <Swiper
-            modules={[Navigation]}
-            navigation={{
-              nextEl: ".custom-arrow-right",
-              prevEl: ".custom-arrow-left",
-            }}
-            loop={true}
-            className="swiper-container"
-          >
-            {project.images?.map((img, idx) => (
-              <SwiperSlide key={idx}>
-                <div className="carousel-slide">
-                  <img src={img} alt={`${project.title} ${idx}`} />
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
+          {project.images?.length > 1 ? (
+            <>
+              <Swiper
+                modules={[Navigation]}
+                navigation={{
+                  nextEl: ".custom-arrow-right",
+                  prevEl: ".custom-arrow-left",
+                }}
+                loop={true}
+                className="swiper-container"
+              >
+                {project.images.map((img, idx) => (
+                  <SwiperSlide key={idx}>
+                    <div className="carousel-slide">
+                      <img src={img} alt={`${project.title} ${idx}`} />
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
 
-          <button
-            className="custom-arrow custom-arrow-left"
-            aria-label="Previous image"
-          >
-            <ChevronLeft size={32} />
-          </button>
+              <button
+                className="custom-arrow custom-arrow-left"
+                aria-label="Previous image"
+              >
+                <ChevronLeft size={32} />
+              </button>
 
-          <button
-            className="custom-arrow custom-arrow-right"
-            aria-label="Next image"
-          >
-            <ChevronRight size={32} />
-          </button>
+              <button
+                className="custom-arrow custom-arrow-right"
+                aria-label="Next image"
+              >
+                <ChevronRight size={32} />
+              </button>
+            </>
+          ) : (
+            // single image fallback
+            <div className="carousel-slide single-image">
+              <img
+                src={project.images?.[0]}
+                alt={project.title}
+                style={{ width: "100%", height: "auto", objectFit: "cover" }}
+              />
+            </div>
+          )}
         </div>
 
         <div className="popup-info">
