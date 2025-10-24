@@ -107,6 +107,15 @@ hr {
   font-size: 20px;
 }
 
+.custom-arrow {
+  transition: opacity 0.3s ease;
+}
+
+.custom-arrow.swiper-button-disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .button-language {
   margin-top: 1rem;
   color: #333;

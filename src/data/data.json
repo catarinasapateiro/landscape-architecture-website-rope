@@ -17,7 +17,10 @@
         "title": "Las Casuarinas, Peru",
         "date": "2020",
         "location": "Peru",
-        "description": "Um espaço de socalcos, flexível e fluido, que modela uma encosta íngreme e a transforma num lugar de encontro, unindo as duas comunidades.",
+        "status": "Concluído",
+        "subtitle": "Competição – Escolha do editor",
+
+        "description": "Um espaço de socalcos, flexível e fluido, que modela uma encosta íngreme e a transforma num lugar de encontro, unindo as duas comunidades.Uma ponte inclusiva que transforma um muro numa paisagem desconstruída, dissolvendo a fronteira entre duas comunidades.",
         "images": [
           "img/casuarinas/P2_V1.jpg",
           "img/casuarinas/P2_V2.jpg",
@@ -31,16 +34,19 @@
         "smallImage": "img/casuarinas/P2_V1.jpg"
       },
       {
-        "title": "Cinfaes",
+        "title": "Quinta em Cinfães do Douro",
         "date": "2025",
         "location": "Cinfaes",
-        "description": "Um espaço de socalcos, flexível e fluido, que modela uma encosta íngreme e a transforma num lugar de encontro, unindo as duas comunidades.",
+        "status": "Em desenvolvimento",
+        "description": "Uma quinta que quer ver crescer uma família, nos socalcos de uma montanha coberta de carvalhos e pinheiros, de onde se espreitam os vales do Douro.",
         "images": ["img/casuarinas/P5_V1.jpg"],
         "smallImage": "img/cinfaes/P5_V1.jpg"
       },
       {
-        "title": "Jardim privado, Kew Gardens",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "title": "Jardim Privado em Kew, Londres",
+        "date": "2025",
+        "status": "Em desenvolvimento",
+        "description": "Um logradouro reimaginado, numa casa vitoriana em Kew.",
         "images": [
           "img/kew/P3_V1.jpg",
           "img/kew/P3_V2.jpg",
@@ -51,7 +57,9 @@
       },
       {
         "title": "Cortiço",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "2022",
+        "status": "Protótipo",
+        "description": "Uma ode à cortiça.Cortiço é o nome dado pelos populares às colmeias tradicionais feitas de cortiça, outrora essenciais antes do advento das ferramentas modernas de apicultura.Este protótipo de banco nasce do desafio de imaginar uma solução de assento público individual para espaços exteriores num contexto pós-Covid.O desenho presta homenagem à sabedoria intemporal daqueles que moldavam o seu entorno com simplicidade e respeito, inspirando-se no mundo natural que os rodeava.",
         "images": [
           "img/cortico/P4_V1.jpg",
           "img/cortico/P4_V2.jpg",
@@ -62,8 +70,11 @@
         "smallImage": "img/cortico/P4_V4.jpg"
       },
       {
-        "title": "Ponte",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "title": "Ponte, Para o Futuro",
+        "date": "2025",
+        "description": "Uma visão estratégica para o espaço urbano, que parte do presente e projeta a Braga do futuro, integrada numa candidatura independente de cidadãos à Câmara Municipal de Braga.",
+        "status": "Concluído",
+        "subtitle": "Candidatura Amar e Servir Braga",
         "images": [
           "img/ponte/P1_V1.jpg",
           "img/ponte/P1_V2.jpg",
@@ -101,7 +112,9 @@
         "title": "Las Casuarinas,competition",
         "date": "March 2025",
         "location": "London",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "status": "Completed",
+        "subtitle": "Competition – Editor’s choice",
+        "description": "A flexible, flowing landscape of terraces that transforms a steep bank into a place of movement and encounter, bringing the two communities together. A gentle, inclusive crossing that turns a dividing wall into a shared landscape and public platform, dissolving the boundary between the two communities.",
         "images": [
           "img/casuarinas/P2_V1.jpg",
           "img/casuarinas/P2_V2.jpg",
@@ -115,16 +128,19 @@
         "smallImage": "img/casuarinas/P2_V1.jpg"
       },
       {
-        "title": "Cinfaes",
+        "title": "Farmhouse in Cinfães do Douro",
         "date": "2025",
         "location": "Cinfaes",
-        "description": "Um espaço de socalcos, flexível e fluido, que modela uma encosta íngreme e a transforma num lugar de encontro, unindo as duas comunidades.",
+        "status": "In progress",
+        "description": "Gazing over the valleys of the Douro, a farmhouse longs to see a family take root on the terraced slopes of a forest of oaks and pines.",
         "images": ["img/casuarinas/P5_V1.jpg"],
         "smallImage": "img/cinfaes/P5_V1.jpg"
       },
       {
-        "title": "Private garden, London",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "title": "Private garden in Kew, London",
+        "date": "2025",
+        "status": "In progress",
+        "description": "A reimagined courtyard in a Victorian house in Kew.",
         "images": [
           "img/kew/P3_V1.jpg",
           "img/kew/P3_V2.jpg",
@@ -135,7 +151,9 @@
       },
       {
         "title": "Cortiço",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "date": "2022",
+        "status": "Prototype",
+        "description": "An ode to cork. Cortiço is the Portuguese name given to traditional beehives crafted from cork, once essential before modern beekeeping tools.This stool prototype comes from a dare of envisioning a postcovid public individual seating solution for public spaces. The design pays tribute to the timeless wisdom of those who shaped their environments with simplicity and respect, drawing inspiration from the natural world around them.",
         "images": [
           "img/cortico/P4_V1.jpg",
           "img/cortico/P4_V2.jpg",
@@ -146,8 +164,11 @@
         "smallImage": "img/cortico/P4_V4.jpg"
       },
       {
-        "title": "Ponte",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "title": "Ponte, Para o Futuro",
+        "date": "2025",
+        "description": "A strategic vision for the urban space, rooted in the present and shaping Braga’s future, developed within an independent citizens’ movement for the City Council.",
+        "status": "Completed",
+        "subtitle": "Candidatura Amar e Servir Braga",
         "images": [
           "img/ponte/P1_V1.jpg",
           "img/ponte/P1_V2.jpg",

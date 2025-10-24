@@ -8,6 +8,9 @@ import "swiper/css/navigation";
 export const PopUp = ({ project, onClose }) => {
   if (!project) return null;
 
+  const imageCount = project.images?.length || 0;
+  const hasMultipleImages = imageCount > 1;
+
   return (
     <div className="popup-overlay" onClick={onClose}>
       <div
@@ -19,26 +22,31 @@ export const PopUp = ({ project, onClose }) => {
         </button>
 
         <div className="carousel-container">
-          {project.images?.length > 1 ? (
-            <>
-              <Swiper
-                modules={[Navigation]}
-                navigation={{
-                  nextEl: ".custom-arrow-right",
-                  prevEl: ".custom-arrow-left",
-                }}
-                loop={true}
-                className="swiper-container"
-              >
-                {project.images.map((img, idx) => (
-                  <SwiperSlide key={idx}>
-                    <div className="carousel-slide">
-                      <img src={img} alt={`${project.title} ${idx}`} />
-                    </div>
-                  </SwiperSlide>
-                ))}
-              </Swiper>
+          <Swiper
+            modules={[Navigation]}
+            navigation={
+              hasMultipleImages
+                ? {
+                    nextEl: ".custom-arrow-right",
+                    prevEl: ".custom-arrow-left",
+                  }
+                : false
+            }
+            loop={hasMultipleImages}
+            allowTouchMove={hasMultipleImages}
+            className="swiper-container"
+          >
+            {project.images?.map((img, idx) => (
+              <SwiperSlide key={idx}>
+                <div className="carousel-slide">
+                  <img src={img} alt={`${project.title} ${idx}`} />
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
 
+          {hasMultipleImages && (
+            <>
               <button
                 className="custom-arrow custom-arrow-left"
                 aria-label="Previous image"
@@ -53,23 +61,15 @@ export const PopUp = ({ project, onClose }) => {
                 <ChevronRight size={32} />
               </button>
             </>
-          ) : (
-            // single image fallback
-            <div className="carousel-slide single-image">
-              <img
-                src={project.images?.[0]}
-                alt={project.title}
-                style={{ width: "100%", height: "auto", objectFit: "cover" }}
-              />
-            </div>
           )}
         </div>
 
         <div className="popup-info">
           <h2>{project.title}</h2>
+          <h4>{project.subtitle}</h4>
           <p>
             date: {project.date} <br />
-            location: {project.location}
+            status: {project.status}
           </p>
           <p>{project.description || "No description available"}</p>
         </div>
