@@ -286,6 +286,43 @@ header .intro-text {
 }
 
 /* About Section */
+
+/* About component paragraph styling */
+.about-text .formatted-paragraphs {
+  line-height: 1.6;
+}
+
+.about-text .description-paragraph {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.about-text .description-paragraph:first-child {
+  margin-top: 0;
+}
+
+.about-text .description-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+/* Keep your existing about styles */
+.about-text-small-container {
+  margin-bottom: 2rem;
+}
+
+.about-text-small-container h4 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.about-text-manifesto-small-container {
+  margin-bottom: 2rem;
+}
+
+.about-text-manifesto-small-container h4 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
 #about {
   padding: 50px 0;
 }
@@ -335,32 +372,46 @@ header .intro-text {
   line-height: 24px;
   margin: 0;
 }
+
 /* Portfolio Section */
-
-.portfolio-item {
-  pointer-events: auto;
-}
-
-.portfolio-item img {
-  pointer-events: auto;
-}
-
-.hover-bg {
-  pointer-events: auto;
-}
 
 #portfolio {
   padding: 50px 0;
 }
+
+.portfolio-items {
+  pointer-events: auto;
+
+  margin: 0 -5px;
+}
+
+.portfolio-column {
+  padding: 4px;
+}
+
 .portfolio-item {
-  margin: 1px -15px 0 -14px;
+  margin: 0;
   padding: 0;
 }
+
+.portfolio-item img {
+  pointer-events: auto;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hover-bg {
+  pointer-events: auto;
+  overflow: hidden;
+}
+
 .portfolio-item .hover-bg {
   overflow: hidden;
   position: relative;
   margin: 0;
 }
+
 .hover-bg .hover-text {
   position: absolute;
   text-align: center;
@@ -377,6 +428,7 @@ header .intro-text {
   opacity: 0;
   transition: all 0.5s;
 }
+
 .hover-bg .hover-text > h4 {
   opacity: 0;
   color: #fff;
@@ -388,12 +440,14 @@ header .intro-text {
   font-weight: 500;
   text-transform: uppercase;
 }
+
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
+
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
@@ -667,6 +721,50 @@ label {
   cursor: pointer;
   z-index: 2;
   transition: all 0.2s ease;
+}
+
+/* Popup Description Styling - IMPORTANT */
+.project-description {
+  margin-top: 1rem;
+  line-height: 1.6;
+  width: 100%;
+}
+
+.description-paragraph {
+  margin-bottom: 1rem !important;
+  padding: 0;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+  white-space: normal;
+  line-height: 1.6;
+}
+
+.description-paragraph:first-child {
+  margin-top: 0;
+}
+
+.description-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+/* Ensure the popup content has proper spacing */
+.popup-info {
+  padding: 20px;
+}
+
+.popup-info h2 {
+  margin-bottom: 0.5rem;
+}
+
+.popup-info h4 {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+.popup-info > p {
+  margin-bottom: 1rem;
+  color: #777;
 }
 
 .custom-arrow:hover {

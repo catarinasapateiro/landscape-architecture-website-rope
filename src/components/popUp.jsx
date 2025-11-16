@@ -11,6 +11,31 @@ export const PopUp = ({ project, onClose }) => {
   const imageCount = project.images?.length || 0;
   const hasMultipleImages = imageCount > 1;
 
+  // Function to format description with paragraphs
+  const formatDescription = (text) => {
+    if (!text) return <p>No description available</p>;
+
+    console.log("Raw text:", text);
+
+    // Split by any combination of line breaks
+    const paragraphs = text.split(/\n\s*\n/);
+
+    console.log("Paragraphs after split:", paragraphs);
+    console.log("Number of paragraphs:", paragraphs.length);
+
+    return paragraphs
+      .map((paragraph, index) => {
+        const trimmed = paragraph.trim();
+        // Only render non-empty paragraphs
+        return trimmed ? (
+          <p key={index} className="description-paragraph">
+            {trimmed}
+          </p>
+        ) : null;
+      })
+      .filter(Boolean); // Remove any null values
+  };
+
   return (
     <div className="popup-overlay" onClick={onClose}>
       <div
@@ -24,14 +49,10 @@ export const PopUp = ({ project, onClose }) => {
         <div className="carousel-container">
           <Swiper
             modules={[Navigation]}
-            navigation={
-              hasMultipleImages
-                ? {
-                    nextEl: ".custom-arrow-right",
-                    prevEl: ".custom-arrow-left",
-                  }
-                : false
-            }
+            navigation={{
+              nextEl: hasMultipleImages ? ".custom-arrow-right" : null,
+              prevEl: hasMultipleImages ? ".custom-arrow-left" : null,
+            }}
             loop={hasMultipleImages}
             allowTouchMove={hasMultipleImages}
             className="swiper-container"
@@ -71,7 +92,9 @@ export const PopUp = ({ project, onClose }) => {
             date: {project.date} <br />
             status: {project.status}
           </p>
-          <p>{project.description || "No description available"}</p>
+          <div className="project-description">
+            {formatDescription(project.description)}
+          </div>
         </div>
       </div>
     </div>

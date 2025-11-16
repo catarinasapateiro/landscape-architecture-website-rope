@@ -6,11 +6,11 @@
     },
     "About": {
       "titleone": "MANIFESTO",
-      "paragraph": "Procuramos conectar a natureza, as pessoas e os lugares. Enquanto arquitetos paisagistas, somos guiados por um profundo respeito pelo patrimônio natural e cultural, bem como pelas necessidades em constante evolução da sociedade. Acreditamos num design visionário e sensível. Criamos espaços que não são apenas funcionais e sustentáveis, mas também ricos em caráter e significado. Cada projeto possui uma identidade única, onde elementos naturais e humanos se fundem numa composição equilibrada e bela. A nossa missão é criar lugares com propósito, onde a natureza e as pessoas se encontram, e o design enriquece a experiência de cada lugar.",
+      "paragraph": "Procuramos conectar a natureza, as pessoas e os lugares. Enquanto arquitetos paisagistas, somos guiados por um profundo respeito pelo patrimônio natural e cultural, bem como pelas necessidades em constante evolução da sociedade.\n\n Acreditamos num design visionário e sensível. Criamos espaços que não são apenas funcionais e sustentáveis, mas também ricos em caráter e significado.\n\n Cada projeto possui uma identidade única, onde elementos naturais e humanos se fundem numa composição equilibrada e bela. A nossa missão é criar lugares com propósito, onde a natureza e as pessoas se encontram, e o design enriquece a experiência de cada lugar.",
       "titletwo": "SARA ROCHA",
-      "paragraphtwo": "Sara, arquiteta paisagista formada pela Universidade do Porto, é naturalmente curiosa e entusiasta. Desde cedo colaborou com profissionais dos quais adquiriu conhecimento e inspiração, mas foi no Reino Unido — onde trabalhou durante quase uma década ao lado de nomes de referência na arquitetura paisagista e no design de jardins, nos escritórios BHSLA e WSP — que a sua carreira realmente floresceu nos últimos 10 anos. O seu portefólio inclui projetos de grande relevância para o Ministério da Defesa britânico, a City of London, as universidades de Cambridge e Oxford, bem como belissimos jardins privados que se tornaram destaque na imprensa.",
+      "paragraphtwo": "Sara, arquiteta paisagista formada pela Universidade do Porto, é naturalmente curiosa e entusiasta.\n\n Desde cedo colaborou com profissionais dos quais adquiriu conhecimento e inspiração, mas foi no Reino Unido — onde trabalhou durante quase uma década ao lado de nomes de referência na arquitetura paisagista e no design de jardins, nos escritórios BHSLA e WSP — que a sua carreira realmente floresceu nos últimos 10 anos.\n\n O seu portefólio inclui projetos de grande relevância para o Ministério da Defesa britânico, a City of London, as universidades de Cambridge e Oxford, bem como belissimos jardins privados que se tornaram destaque na imprensa.",
       "titlethree": "MARCELO SANTOS",
-      "paragraphthree": "Marcelo é arquiteto paisagista com um forte interesse em design de mobiliário e design gráfico. Com ampla experiência no Reino Unido e em Portugal, colaborou com empresas de portefólio internacional, como a BDP. Esteve envolvido na regeneração da Oxford Street e da King’s Road, e possui vasta experiência no setor residencial, tendo participado num dos maiores projetos residenciais da última década em Londres. O seu portefólio inclui ainda projetos comerciais, corporativos, hoteleiros e na área da saúde."
+      "paragraphthree": "Marcelo é arquiteto paisagista com um forte interesse em design de mobiliário e design gráfico.\n\nCom ampla experiência no Reino Unido e em Portugal, colaborou com empresas de portefólio internacional, como a BDP. Esteve envolvido na regeneração da Oxford Street e da King’s Road, e possui vasta experiência no setor residencial, tendo participado num dos maiores projetos residenciais da última década em Londres.\n\n O seu portefólio inclui ainda projetos comerciais, corporativos, hoteleiros e na área da saúde."
     },
     "Gallery": [
       {
@@ -20,7 +20,7 @@
         "status": "Concluído",
         "subtitle": "Competição – Escolha do editor",
 
-        "description": "Um espaço de socalcos, flexível e fluido, que modela uma encosta íngreme e a transforma num lugar de encontro, unindo as duas comunidades.Uma ponte inclusiva que transforma um muro numa paisagem desconstruída, dissolvendo a fronteira entre duas comunidades.",
+        "description": "Um espaço de socalcos, flexível e fluido, que modela uma encosta íngreme e a transforma num lugar de encontro, unindo as duas comunidades.\n\n Uma ponte inclusiva que transforma um muro numa paisagem desconstruída, dissolvendo a fronteira entre duas comunidades.",
         "images": [
           "img/casuarinas/P2_V1.jpg",
           "img/casuarinas/P2_V2.jpg",
@@ -39,7 +39,7 @@
         "location": "Cinfaes",
         "status": "Em desenvolvimento",
         "description": "Uma quinta que quer ver crescer uma família, nos socalcos de uma montanha coberta de carvalhos e pinheiros, de onde se espreitam os vales do Douro.",
-        "images": ["img/casuarinas/P5_V1.jpg"],
+        "images": ["img/cinfaes/P5_V1.jpg"],
         "smallImage": "img/cinfaes/P5_V1.jpg"
       },
       {
@@ -59,7 +59,7 @@
         "title": "Cortiço",
         "date": "2022",
         "status": "Protótipo",
-        "description": "Uma ode à cortiça.Cortiço é o nome dado pelos populares às colmeias tradicionais feitas de cortiça, outrora essenciais antes do advento das ferramentas modernas de apicultura.Este protótipo de banco nasce do desafio de imaginar uma solução de assento público individual para espaços exteriores num contexto pós-Covid.O desenho presta homenagem à sabedoria intemporal daqueles que moldavam o seu entorno com simplicidade e respeito, inspirando-se no mundo natural que os rodeava.",
+        "description": "Uma ode à cortiça. Cortiço é o nome dado pelos populares às colmeias tradicionais feitas de cortiça, outrora essenciais antes do advento das ferramentas modernas de apicultura.\n\nEste protótipo de banco nasce do desafio de imaginar uma solução de assento público individual para espaços exteriores num contexto pós-Covid.\n\nO desenho presta homenagem à sabedoria intemporal daqueles que moldavam o seu entorno com simplicidade e respeito, inspirando-se no mundo natural que os rodeava.",
         "images": [
           "img/cortico/P4_V1.jpg",
           "img/cortico/P4_V2.jpg",
@@ -101,7 +101,7 @@
     },
     "About": {
       "titleone": "MANIFESTO",
-      "paragraph": "We strive to connect nature, people, and places. As landscape architects, we are guided by a deep respect for natural and cultural heritage and the ever-evolving needs of society. We believe in visionary and sensitive design. We create places that are not only functional and sustainable but also rich in character and meaning.Each project has its own unique identity, where natural and built elements blend into a balanced and beautiful composition. Our mission is to create purposeful places where nature and people come together, and design enhances the experience of the space.",
+      "paragraph": "We strive to connect nature, people, and places. As landscape architects, we are guided by a deep respect for natural and cultural heritage and the ever-evolving needs of society. We believe in visionary and sensitive design. We create places that are not only functional and sustainable but also rich in character and meaning.\n\n Each project has its own unique identity, where natural and built elements blend into a balanced and beautiful composition. Our mission is to create purposeful places where nature and people come together, and design enhances the experience of the space.",
       "titletwo": "SARA ROCHA",
       "paragraphtwo": "Sara, a landscape architect from the University of Porto, is naturally curious and enthusiastic.From an early stage, she collaborated with professionals from whom she gained knowledge and inspiration, but it was in the United Kingdom - where she worked for almost a decade alongside leading figures in landscape architecture and garden design at BHSLA and WSP – that her career truly flourished over the past 10 years. Her portfolio includes significant projects for the British Ministry of Defence, the City of London, and Cambridge and Oxford universities, as well as high-end private gardens featured in the press.",
       "titlethree": "MARCELO SANTOS",
@@ -114,7 +114,7 @@
         "location": "London",
         "status": "Completed",
         "subtitle": "Competition – Editor’s choice",
-        "description": "A flexible, flowing landscape of terraces that transforms a steep bank into a place of movement and encounter, bringing the two communities together. A gentle, inclusive crossing that turns a dividing wall into a shared landscape and public platform, dissolving the boundary between the two communities.",
+        "description": "A flexible, flowing landscape of terraces that transforms a steep bank into a place of movement and encounter, bringing the two communities together.\n\nA gentle, inclusive crossing that turns a dividing wall into a shared landscape and public platform, dissolving the boundary between the two communities.",
         "images": [
           "img/casuarinas/P2_V1.jpg",
           "img/casuarinas/P2_V2.jpg",
@@ -153,7 +153,7 @@
         "title": "Cortiço",
         "date": "2022",
         "status": "Prototype",
-        "description": "An ode to cork. Cortiço is the Portuguese name given to traditional beehives crafted from cork, once essential before modern beekeeping tools.This stool prototype comes from a dare of envisioning a postcovid public individual seating solution for public spaces. The design pays tribute to the timeless wisdom of those who shaped their environments with simplicity and respect, drawing inspiration from the natural world around them.",
+        "description": "An ode to cork. Cortiço is the Portuguese name given to traditional beehives crafted from cork, once essential before modern beekeeping tools.\n\nThis stool prototype comes from a dare of envisioning a postcovid public individual seating solution for public spaces.\n\n The design pays tribute to the timeless wisdom of those who shaped their environments with simplicity and respect, drawing inspiration from the natural world around them.",
         "images": [
           "img/cortico/P4_V1.jpg",
           "img/cortico/P4_V2.jpg",

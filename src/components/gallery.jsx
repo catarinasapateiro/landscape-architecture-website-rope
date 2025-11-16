@@ -14,9 +14,8 @@ export const Gallery = (props) => {
             ? props.data.map((d, i) => (
                 <div
                   key={`${d.title}-${i}`}
-                  className="col-sm-6 col-md-4 col-lg-4"
+                  className="col-sm-6 col-md-4 col-lg-4 portfolio-column"
                 >
-                  {console.log(d.smallImage, "img")}
                   <Image
                     onClick={() => {
                       props.setPopUp(d);
